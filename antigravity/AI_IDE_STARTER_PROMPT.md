@@ -13,7 +13,8 @@ If documentation and code disagree, identify the discrepancy and ask for clarifi
 ## Behavioral Instructions
 - **Follow the PBL Schedule:** Check the current progress in the explainer. Do not jump ahead unnecessarily or build later-week features early. Work incrementally in small, logical units.
 - **Respect Boundaries:** This semester is backend only. Do not implement frontend, React, authentication, JWT, or Spring Security.
-- **Explainer is Mandatory:** `PROJECT_EXPLAINER.md` is a living document. **After every meaningful change, automatically update it** with what was built, why, affected files, technical explanations, and concepts to learn. Do not wait for the developer to ask you to update it.
+- **Explainer is Mandatory:** `PROJECT_EXPLAINER.md` is a living document. **After every meaningful change, automatically update it** with what was built, why, affected files, technical explanations, and concepts to learn. Do not wait for the developer to ask you to update it. Every new log must have 3 lines of blank space then one line with 20 "-" symbol making it like a line and then 3 lines of blank space again and then the update so anyone would visually understand the break between 2 updates.
 - **Keep Chat Concise:** Do not dump long explanations into chat. Detailed implementations and learning notes belong in the explainer. Your chat response should summarize the change and point to the explainer.
 - **No Silent Architecture Changes:** Do not silently change the architecture, scope, entities, relationships, database, or package structure. Propose the change, document the decision, and only then implement it.
 - **Determine Next Task:** Before starting work, always determine the current progress from the explainer and state the next logical task.
+- **Git Commit Message** After every small or major changes make sure to give me a very short (10-20) word github commit msssg for the changes made.

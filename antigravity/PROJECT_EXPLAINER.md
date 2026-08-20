@@ -15,10 +15,10 @@
 - Technical mapping strategy defined (see `TRD.md`)
 - Project documentation optimized
 - ER diagram and field-level entity design completed
+- PostgreSQL database creation script added
+- Spring Boot project setup & database connectivity
 
 ### Pending (Next Logical Steps)
-- PostgreSQL database creation
-- Spring Boot project setup & database connectivity
 - Entity implementation (Week 1)
 - REST APIs (Week 2)
 - Logging, Validation, Exception Handling, Swagger (Week 3)
@@ -100,3 +100,27 @@ Database design is now finalized. No APIs yet.
 Reviewed relationships against the TRD mapping requirements.
 ### Next step
 Create the PostgreSQL database and set up the Spring Boot project.
+
+## 2026-08-14 — Week 1 Phase 2: Spring Boot Setup & DB Connectivity
+### What changed
+Created the base Spring Boot project structure (Maven `pom.xml`, Main Application class) and initialized PostgreSQL database configurations via `application.properties`. Added an `init.sql` script for creating the database.
+### Why
+To lay the technical foundation of the project before writing domain entities and to establish the connection between the application and the PostgreSQL server.
+### Files changed
+- `pom.xml`
+- `src/main/java/com/college/erp/CollegeErpApplication.java`
+- `src/main/resources/application.properties`
+- `init.sql`
+### Technical explanation
+Used Maven to define the Spring Boot application and its dependencies: Spring Web (for REST APIs), Spring Data JPA (for database ORM), PostgreSQL Driver, and Validation. The `application.properties` file is configured to connect to `jdbc:postgresql://localhost:5432/college_erp` with `spring.jpa.hibernate.ddl-auto=update` so JPA will automatically generate our tables based on our future entities.
+### Database / API impact
+The database `college_erp` is expected to exist. The user can create it manually or by running `init.sql`. No tables exist yet.
+### Concepts to learn
+- Maven `pom.xml` and dependency management
+- Spring Boot main class (`@SpringBootApplication`)
+- `application.properties` configuration
+- Hibernate `ddl-auto` (table auto-generation)
+### Testing performed
+Verified the standard Spring Boot structure.
+### Next step
+Implement the Entity classes in Java based on the ERD (Week 1 Phase 3).
