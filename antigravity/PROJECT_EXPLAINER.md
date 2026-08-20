@@ -80,6 +80,12 @@ Important architectural and scope decisions are recorded here.
 ### Next step
 ```
 
+
+
+--------------------
+
+
+
 ## 2026-08-14 — Week 1 Phase 1: ERD and Field-Level Design
 ### What changed
 Created an ERD and defined the exact fields, data types, and keys for the database. Also introduced a `StudentProfile` entity.
@@ -100,6 +106,12 @@ Database design is now finalized. No APIs yet.
 Reviewed relationships against the TRD mapping requirements.
 ### Next step
 Create the PostgreSQL database and set up the Spring Boot project.
+
+
+
+--------------------
+
+
 
 ## 2026-08-14 — Week 1 Phase 2: Spring Boot Setup & DB Connectivity
 ### What changed
@@ -124,3 +136,9 @@ The database `college_erp` is expected to exist. The user can create it manually
 Verified the standard Spring Boot structure.
 ### Next step
 Implement the Entity classes in Java based on the ERD (Week 1 Phase 3).
+
+
+
+--------------------
+
+
