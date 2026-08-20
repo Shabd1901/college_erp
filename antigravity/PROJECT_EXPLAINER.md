@@ -1,6 +1,6 @@
 # College ERP — Project Explainer / Living Learning Document
 
-> **AI SESSION INSTRUCTION:** This is the project's **living textbook**. After every meaningful code change, automatically update this file with what was actually built, implementation decisions, code explanations, database/API changes, concepts the developer needs to learn, and testing performed. Do not explain hypothetical code—only document what currently exists in the project.
+**AI SESSION INSTRUCTION:** This is the project's **living textbook**. After every meaningful code change, automatically update this file with what was actually built, implementation decisions, code explanations, database/API changes, concepts the developer needs to learn, and testing performed. Do not explain hypothetical code—only document what currently exists in the project.
 
 ---
 
