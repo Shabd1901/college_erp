@@ -18,7 +18,7 @@
 - PostgreSQL database creation script added
 - Spring Boot project setup & database connectivity
 
-### Pending (Next Logical Steps)
+### Pending (Next Logical Steps to be implemented)
 - Entity implementation (Week 1)
 - REST APIs (Week 2)
 - Logging, Validation, Exception Handling, Swagger (Week 3)
